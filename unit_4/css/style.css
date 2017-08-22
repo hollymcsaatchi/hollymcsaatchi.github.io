@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+body {
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Fjalla One', sans-serif;
+	margin: em10;
+	font-size: large;
+	background-color: black;
+   
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+	p{
+		padding-left: 400px;
+		padding-right: 400px;
+		font-family: 'Open Sans Condensed', '300', sans-serif;
+		font-size: 16px;
+		line-height: em1.5;
+		text-align: justify;
+		
+	}
+
+
+	hr{
+		width: 620px;
+		line-height: 2px;
+	}
+	a{ 	font-family: Helvetica
+		font-weight: lighter; 
+		font-size: 12px;
+
+	}
+}
