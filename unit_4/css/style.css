@@ -7,9 +7,9 @@ body {
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Fjalla One', sans-serif;
-	margin: 40px;
-	font-size: large;
-	
+	margin: em100;
+	font-size: 60px;
+	background-color: black;
    
     background-attachment:fixed;
     background-repeat: no-repeat;
