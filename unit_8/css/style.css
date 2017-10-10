@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+body {
+	/*background-color: #026072;*/
+	color: #ffffff;
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	/*background-color: black;*/
+   }
+header {
+    background-color: #FFED74;
+    padding: 30px;
+}
+
+nav { 
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+    display: inline-block;
+}
+
+
+/*#wrapper {
+	padding: 90px
+	background-color: #000000;
+}*/
+
+#two_column {
+    background-color: #00ffcc;
+    /*border: 1px black solid;*/
+    padding: 2%;
+}
+
+#who_we_are {
+    background-color: #00e6b8;
+    /*border: 1px black solid;*/
+    padding: 2%;
+    float: left;
+    width: 45%;
+}
+
+#what_we_do {
+	background-color: #00e6b8;
+    /*border: 1px black solid;*/
+    padding: 2%;
+    float: right;   
+    width: 45%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#article1 {
+	background-color: #00e6b8;
+    /*border: 1px black solid;*/
+    padding: 2%;
+    float: left;
+    width: 45%;
+}
+
+#article2 {
+	background-color: #00e6b8;
+    /*border: 1px black solid;*/
+    padding: 2%;
+    float: right;   
+    width: 45%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 480px) {
+ #who_we_are {
+    float: none;
+    width: 90%;
+    padding: 2%;
+ }  
+
+ #what_we_do {
+    float: none;
+    width: 90%;
+    padding: 2%;
+ } 
+
+ #article1 {
+    float: none;
+    width: 90%;
+    padding: 2%;
+ }
+
+ #article2 {
+    float: none;
+    width: 90%;
+    padding: 2%;
+ }
+
+}
+
+
+footer {
+    background-color: #008066;
+   /* border: 1px black solid;*/
+    padding: 2%;
+    text-align: center;
+    clear: both;
+}
+
+span {
+	font-variant: caps;
+	letter-spacing: .2em;
+	padding: 2 .2em;
+	background: #f4424b;
+}
+
+p{
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	font-family: 'Open Sans Condensed', '300', sans-serif;
+	font-size: 16px;
+	line-height: em1.5;
+	text-align: justify;
+	}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+}
